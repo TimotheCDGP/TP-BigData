@@ -23,7 +23,7 @@ Ce projet a été réalisé dans le cadre d'un TP de Big Data. L'objectif princi
 
 ---
 
-##📂 Structure du Projet
+## 📂 Structure du Projet
 ├── datasets/ Contient les fichiers de données bruts extraits de Kaggle
 ├── notebooks/ Notebooks Databricks pour le traitement et l'analyse des données
 ├── report/ Rapport Compte rendu du projet
