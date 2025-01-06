@@ -59,6 +59,6 @@ Le rapport complet, incluant :
 - Les analyses des interactions des Pokémon en combat.
 - Les visualisations clés (corrélations, forces/faiblesses).
 
-📄 **Lien vers le rapport :** [`Big data.pdf`](Big data.pdf)
+📄 **Lien vers le rapport :** [`Big data.pdf`](Big%20data.pdf)
 
 ---
