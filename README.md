@@ -1,20 +1,64 @@
-# Projet BigData :
+# 📊 **Projet BigData : Analyse des Pokémon**
 
-__Membres du groupe :__
-* PEYREGNE Timothé
-* RAIS Adel
-* MANGUIN charles
+## 🎓 **Contexte**
+Ce projet a été réalisé dans le cadre d'un TP de Big Data. L'objectif principal est d'explorer et d'analyser les interactions des Pokémon en combat, notamment leurs forces, faiblesses, et résistances selon leurs types, tout en mettant en œuvre une architecture de type **Lakehouse**.
 
-## Le compte rendu du devoir se trouve dans le .pdf ci joint
-CompteRendu.pdf
-## Les données utilisées ont été sélectionnées sur Kaggle
-* https://www.kaggle.com/datasets/rounakbanik/pokemon
-* https://www.kaggle.com/datasets/mrdew25/pokemon-database/data
-*Également trouvables dans le dossier /datasets*
+---
 
-## Outils utilisés :
-* Airbyte pour l'ingestion de données
-  https://github.com/airbytehq/airbyte
-* Azure comme stockage cloud
-* Notebooks Databricks pour le traitement des données avec PySpark
-  *Également trouvables dans le dossier /notebooks*
+## 🧑‍🤝‍🧑 **Membres du Groupe**
+- **PEYREGNE Timothé**
+- **RAIS Adel**
+- **MANGUIN charles**
+
+---
+
+## 📝 **Description**
+### **But du projet**
+- Nettoyer, transformer, et analyser les données Pokémon pour extraire des insights sur leurs interactions en combat.
+- Implémenter une architecture **Lakehouse** comprenant :
+  - Une zone de staging (**Bronze**),
+  - Une zone de transformation (**Silver**),
+  - Une zone d'analyse finale (**Gold**).
+- Visualiser les résultats et produire un rapport final.
+
+---
+
+##📂 Structure du Projet
+├── datasets/ Contient les fichiers de données bruts extraits de Kaggle
+├── notebooks/ Notebooks Databricks pour le traitement et l'analyse des données
+├── report/ Rapport Compte rendu du projet
+├── README.md Ce fichier
+└── .gitignore Fichiers et dossiers à ignorer dans Git
+
+---
+
+## 🔗 **Sources des Données**
+Les données utilisées dans ce projet proviennent de Kaggle :
+- [Pokémon Dataset 1](https://www.kaggle.com/datasets/rounakbanik/pokemon) : Statistiques des Pokémon.
+- [Pokémon Dataset 2](https://www.kaggle.com/datasets/mrdew25/pokemon-database/data) : Informations détaillées (types, interactions, etc.).
+
+Ces fichiers sont également disponibles dans le dossier `/datasets` pour un usage local.
+
+---
+
+## 🛠️ **Outils et Technologies**
+- **Airbyte** : Pour l'ingestion de données depuis les fichiers CSV.
+  - [Site officiel d'Airbyte](https://github.com/airbytehq/airbyte)
+- **Azure Blob Storage** : Utilisé comme stockage cloud pour les zones **Bronze**, **Silver**, et **Gold**.
+- **Databricks Notebooks** : Pour le traitement et l'analyse des données avec PySpark.
+- **Python** : Bibliothèques :
+  - **Pandas**, **Seaborn**, **Matplotlib** pour les visualisations et analyses statistiques.
+  - **PySpark** pour les transformations sur Databricks.
+
+---
+
+## 📊 **Rapport Final**
+Le rapport complet, incluant :
+- Le modèle conceptuel des données (MCD).
+- Les étapes de transformation et nettoyage.
+- Les analyses des interactions des Pokémon en combat.
+- Les visualisations clés (corrélations, forces/faiblesses).
+
+📄 **Lien vers le rapport :** [`CompteRendu.pdf`](Big data.pdf)
+
+---
