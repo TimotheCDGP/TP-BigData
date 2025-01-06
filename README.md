@@ -8,7 +8,7 @@ Ce projet a été réalisé dans le cadre d'un TP de Big Data. L'objectif princi
 ## 🧑‍🤝‍🧑 **Membres du Groupe**
 - **PEYREGNE Timothé**
 - **RAIS Adel**
-- **MANGUIN charles**
+- **MANGUIN Charles**
 
 ---
 
